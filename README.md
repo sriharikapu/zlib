@@ -7,7 +7,7 @@
 Install with `npm install @sriharikapu/zlib`.
 
     var Buffer = require('buffer').Buffer;
-    var zlib = require('zlib');
+    var zlib = require('@sriharikapu/zlib');
     
     var input = new Buffer('lorem ipsum dolor sit amet');
     var compressed = zlib.deflate(input);
