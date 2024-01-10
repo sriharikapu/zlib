@@ -6,7 +6,7 @@
     "author": "sriharikapu <sri@sriharikapu.com>",
     "repository": {
         "type": "git",
-        "url": "git://github.com/sriharikapu/zlib.git"
+        "url": "git+https://github.com/sriharikapu/zlib.git"
     },
     "engines": {
         "node": ">=0.2.0"
@@ -17,5 +17,8 @@
             "url": "http://creativecommons.org/publicdomain/zero/1.0/"
         }
     ],
+    "publishConfig": {
+        "registry": "https://npm.pkg.github.com/@sriharikapu/zlib"
+    },
     "main": "./lib/zlib"
 }
